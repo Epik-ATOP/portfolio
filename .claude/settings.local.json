@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(ls -la)",
+      "Bash(find . -maxdepth 2 -iname \"*.md\" -path \"*skills*\")",
+      "Bash(which chromium-cli *)",
+      "Bash(which npx *)",
+      "Bash(which python *)",
+      "Read(//c/Program Files/Google/Chrome/Application//**)"
+    ]
+  }
+}

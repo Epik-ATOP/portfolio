@@ -103,6 +103,15 @@ header{
     gap: 2rem;
 }
 
+#constellation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 header .content h4{
     margin-bottom: 1rem;
     color: #ccc;
