@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Jaden's Portfolio</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li id="link1" class="link"><a href="#">Features</a></li>
+            <li id="link2" class="link"><a href="#">Pricing</a></li>
+            <li id="link3" class="link"><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>CREATE YOUR SITE LIKE A PRO</h4>
+            <H1>Hello, I'm <span>Jaden</span>, a web Developer</H1>
+            <p>
+                Does your business need a website? Or you want a personal blog? I can help.
+            </p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+        <div class="image">
+            <img src="images/header.png">
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="header">MY OFFERS</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-store-2-line"></i></span>
+                <h4>Business Websites</h4>
+                <p>
+                    Need a website for your business? I can design and build one that fits your needs.
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-quill-pen-line"></i></span>
+                <h4>Personal Blogs</h4>
+                <p>
+                    Want to share your ideas online? I can create a personal blog just for you.
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-bug-line"></i></span>
+                <h4>Fix Your Bugs</h4>
+                <p>
+                    You have any problem in your codes? Tell me, i will help you fix it.
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-shake-hands-line"></i></span>
+                <h4>Cooperation</h4>
+                <p>
+                    You want we worrk together? Write email to us, we will read it.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="header">FLEXIBLE PRICING</h2>
+        <p class="sub-header">
+            Every project is different, so is its price. Message me on WhatsApp and tell me about your project,
+            I'll get back to you with a fair quote.
+        </p>
+        <div class="center-btn">
+            <a href="https://wa.me/1234567890" class="btn" target="_blank" rel="noopener">
+                <i class="ri-whatsapp-line"></i> Chat on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="header">GET STARTED</h2>
+        <p class="sub-header">
+            Tell me about your project and I'll get back to you as soon as possible.
+        </p>
+        <form class="contact-form" action="https://formspree.io/f/xvzjwvqa" method="POST">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="business">Business/Organization Name (optional)</label>
+                <input type="text" id="business" name="business">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp (optional)</label>
+                    <input type="tel" id="whatsapp" name="whatsapp">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="description">Tell me about the site you want</label>
+                <textarea id="description" name="description" rows="5" required></textarea>
+            </div>
+            <div class="center-btn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="ri-whatsapp-line"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
